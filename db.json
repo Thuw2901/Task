@@ -1,0 +1,82 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Thiết kế giao diện người dùng",
+      "description": "Thiết kế UI cho màn hình chính của ứng dụng",
+      "status": "in_progress",
+      "priority": 1,
+      "assignedTo": "u01",
+      "createdAt": "2024-12-01T08:00:00.000Z",
+      "updatedAt": "2024-12-02T10:30:00.000Z",
+      "createdBy": "u99",
+      "completed": false
+    },
+    {
+      "id": "2",
+      "title": "Tạo cơ sở dữ liệu",
+      "description": "Thiết kế schema và tạo bảng cho hệ thống quản lý",
+      "status": "done",
+      "priority": 2,
+      "assignedTo": "u02",
+      "createdAt": "2024-11-20T09:15:00.000Z",
+      "updatedAt": "2024-11-22T11:00:00.000Z",
+      "createdBy": "u99",
+      "completed": true
+    },
+    {
+      "id": "3",
+      "title": "Tích hợp API",
+      "description": "Kết nối app với RESTful API",
+      "status": "pending",
+      "priority": 3,
+      "assignedTo": "u03",
+      "createdAt": "2024-12-10T13:45:00.000Z",
+      "updatedAt": "2024-12-11T14:00:00.000Z",
+      "createdBy": "u99",
+      "completed": false
+    }
+  ],
+  "users": [
+    {
+      "id": "u01",
+      "username": "nguyenvana",
+      "password": "Ana@123",
+      "email": "ana@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=1",
+      "createdAt": "2023-06-01T10:00:00.000Z",
+      "lastActive": "2025-04-01T12:00:00.000Z",
+      "isAdmin": false
+    },
+    {
+      "id": "u02",
+      "username": "tranthib",
+      "password": "Binh@456",
+      "email": "binh@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=2",
+      "createdAt": "2023-06-02T11:00:00.000Z",
+      "lastActive": "2025-04-02T13:00:00.000Z",
+      "isAdmin": false
+    },
+    {
+      "id": "u03",
+      "username": "lequangc",
+      "password": "Cuong@789",
+      "email": "cuong@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=3",
+      "createdAt": "2023-06-03T12:00:00.000Z",
+      "lastActive": "2025-04-03T14:00:00.000Z",
+      "isAdmin": false
+    },
+    {
+      "id": "u99",
+      "username": "admin01",
+      "password": "Admin@123",
+      "email": "admin@example.com",
+      "avatar": "https://i.pravatar.cc/150?img=99",
+      "createdAt": "2023-01-01T09:00:00.000Z",
+      "lastActive": "2025-04-04T09:00:00.000Z",
+      "isAdmin": true
+    }
+  ]
+}
